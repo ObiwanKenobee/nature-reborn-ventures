@@ -3,7 +3,7 @@ import ConceptModule from './ConceptModule';
 import { 
   Leaf, 
   Network, 
-  Drone, 
+  Plane, 
   Server, 
   Globe 
 } from 'lucide-react';
@@ -49,7 +49,7 @@ const ModulesSection = () => {
         subtitle="Restoration-as-a-Service"
         description="Develop startups dedicated to active ecosystem restoration through innovative technologies. From drone-led rewilding to native seed propagation, these ventures transform conventional business models into regenerative forces for biodiversity and ecological health."
         features={["Drone-led rewilding", "Native seed tech", "Eco-engineered reforestation", "Biodiversity monitoring"]}
-        icon={<Drone className="w-10 h-10" />}
+        icon={<Plane className="w-10 h-10" />}
         color="bioluminescent"
       />
 
